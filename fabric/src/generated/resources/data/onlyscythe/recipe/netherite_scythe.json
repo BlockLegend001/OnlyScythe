@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:netherite_ingot",
+  "base": "onlyscythe:diamond_scythe",
+  "result": {
+    "count": 1,
+    "id": "onlyscythe:netherite_scythe"
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}
