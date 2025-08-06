@@ -1,0 +1,13 @@
+// 1.21.1	2025-08-05T22:21:38.1330017	Recipes
+5ce507289c557101088d2ff7b31675197e79fcff data/onlyscythe/advancement/recipes/misc/netherite_scythe_smithing.json
+38bb7186956c239b8445ac3f877105a6cc11a284 data/onlyscythe/advancement/recipes/tools/diamond_scythe.json
+11426576136347166cc9e18dbfb9a6059d169457 data/onlyscythe/advancement/recipes/tools/golden_scythe.json
+dc1a3dbcf4ea9c0411afd47876d37f0621b46005 data/onlyscythe/advancement/recipes/tools/iron_scythe.json
+c2cce929ea59400426fa87cd52c168ca6af87b63 data/onlyscythe/advancement/recipes/tools/stone_scythe.json
+fe74e1eaaa2d92036a9871dd66bf30c8ddbb373c data/onlyscythe/advancement/recipes/tools/wooden_scythe.json
+03d3107de13dc85c6432fbeedf91631434e7ddfc data/onlyscythe/recipe/diamond_scythe.json
+5205a05faac42853a89a2e434977370a8e58e3aa data/onlyscythe/recipe/golden_scythe.json
+dee38a2f8f86387f50207e10a91898352fc186de data/onlyscythe/recipe/iron_scythe.json
+fcb99897afec3e412b77f5627f3d83f64c793081 data/onlyscythe/recipe/netherite_scythe_smithing.json
+479b14f4eb9774b45cf5922530759ce1903a9472 data/onlyscythe/recipe/stone_scythe.json
+09732d222bbe51af48c95c279ebb7d9f7ed1ff21 data/onlyscythe/recipe/wooden_scythe.json
