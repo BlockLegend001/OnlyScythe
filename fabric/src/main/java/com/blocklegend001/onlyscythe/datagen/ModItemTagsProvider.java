@@ -1,0 +1,54 @@
+package com.blocklegend001.onlyscythe.datagen;
+
+import com.blocklegend001.onlyscythe.item.ModItems;
+import com.blocklegend001.onlyscythe.util.ModTags;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.tags.ItemTags;
+
+import java.util.concurrent.CompletableFuture;
+
+public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
+    public ModItemTagsProvider(FabricDataOutput output, CompletableFuture<HolderLookup.Provider> registriesFuture) {
+        super(output, registriesFuture);
+    }
+
+    @Override
+    protected void addTags(HolderLookup.Provider provider) {
+        valueLookupBuilder(ItemTags.DURABILITY_ENCHANTABLE).add(ModItems.WOODEN_SCYTHE)
+                .add(ModItems.STONE_SCYTHE)
+                .add(ModItems.IRON_SCYTHE)
+                .add(ModItems.GOLDEN_SCYTHE)
+                .add(ModItems.DIAMOND_SCYTHE)
+                .add(ModItems.NETHERITE_SCYTHE);
+
+        valueLookupBuilder(ItemTags.MINING_LOOT_ENCHANTABLE).add(ModItems.WOODEN_SCYTHE)
+                .add(ModItems.STONE_SCYTHE)
+                .add(ModItems.IRON_SCYTHE)
+                .add(ModItems.GOLDEN_SCYTHE)
+                .add(ModItems.DIAMOND_SCYTHE)
+                .add(ModItems.NETHERITE_SCYTHE);
+
+        valueLookupBuilder(ItemTags.VANISHING_ENCHANTABLE).add(ModItems.WOODEN_SCYTHE)
+                .add(ModItems.STONE_SCYTHE)
+                .add(ModItems.IRON_SCYTHE)
+                .add(ModItems.GOLDEN_SCYTHE)
+                .add(ModItems.DIAMOND_SCYTHE)
+                .add(ModItems.NETHERITE_SCYTHE);
+
+        valueLookupBuilder(ItemTags.MINING_ENCHANTABLE).add(ModItems.WOODEN_SCYTHE)
+                .add(ModItems.STONE_SCYTHE)
+                .add(ModItems.IRON_SCYTHE)
+                .add(ModItems.GOLDEN_SCYTHE)
+                .add(ModItems.DIAMOND_SCYTHE)
+                .add(ModItems.NETHERITE_SCYTHE);
+
+        valueLookupBuilder(ModTags.WOODEN_SCYTHE).add(ModItems.WOODEN_SCYTHE);
+        valueLookupBuilder(ModTags.STONE_SCYTHE).add(ModItems.STONE_SCYTHE);
+        valueLookupBuilder(ModTags.IRON_SCYTHE).add(ModItems.IRON_SCYTHE);
+        valueLookupBuilder(ModTags.GOLDEN_SCYTHE).add(ModItems.GOLDEN_SCYTHE);
+        valueLookupBuilder(ModTags.DIAMOND_SCYTHE).add(ModItems.DIAMOND_SCYTHE);
+        valueLookupBuilder(ModTags.NETHERITE_SCYTHE).add(ModItems.NETHERITE_SCYTHE);
+    }
+}
