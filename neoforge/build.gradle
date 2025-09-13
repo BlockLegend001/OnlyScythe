@@ -78,7 +78,7 @@ dependencies {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 publishMods {
-    displayName = "$mod_name-1.21.8-0.1-NeoForge"
+    displayName = "${mod_name}-${project.version}-NeoForge"
     type = STABLE
 
     def changelogFile = file('CHANGELOG.md')

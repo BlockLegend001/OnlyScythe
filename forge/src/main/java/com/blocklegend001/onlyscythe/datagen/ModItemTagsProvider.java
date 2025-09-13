@@ -6,6 +6,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.VanillaItemTagsProvider;
 import net.minecraft.tags.ItemTags;
+import net.minecraftforge.common.Tags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -42,6 +43,28 @@ public class ModItemTagsProvider extends VanillaItemTagsProvider {
                 .add(ModItems.GOLDEN_SCYTHE)
                 .add(ModItems.DIAMOND_SCYTHE)
                 .add(ModItems.NETHERITE_SCYTHE);
+
+        tag(ItemTags.HOES).add(ModItems.WOODEN_SCYTHE)
+                .add(ModItems.STONE_SCYTHE)
+                .add(ModItems.IRON_SCYTHE)
+                .add(ModItems.GOLDEN_SCYTHE)
+                .add(ModItems.DIAMOND_SCYTHE)
+                .add(ModItems.NETHERITE_SCYTHE);
+
+        tag(ItemTags.BREAKS_DECORATED_POTS).add(ModItems.WOODEN_SCYTHE)
+                .add(ModItems.STONE_SCYTHE)
+                .add(ModItems.IRON_SCYTHE)
+                .add(ModItems.GOLDEN_SCYTHE)
+                .add(ModItems.DIAMOND_SCYTHE)
+                .add(ModItems.NETHERITE_SCYTHE);
+
+        tag(Tags.Items.TOOLS).add(ModItems.WOODEN_SCYTHE)
+                .add(ModItems.STONE_SCYTHE)
+                .add(ModItems.IRON_SCYTHE)
+                .add(ModItems.GOLDEN_SCYTHE)
+                .add(ModItems.DIAMOND_SCYTHE)
+                .add(ModItems.NETHERITE_SCYTHE);
+
 
         tag(ModTags.WOODEN_SCYTHE).add(ModItems.WOODEN_SCYTHE);
         tag(ModTags.STONE_SCYTHE).add(ModItems.STONE_SCYTHE);
