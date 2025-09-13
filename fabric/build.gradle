@@ -73,7 +73,7 @@ afterEvaluate {
 }
 
 publishMods {
-    displayName = "$mod_name-1.21.1-0.1-Fabric"
+    displayName = "${mod_name}-${project.version}-Fabric"
     type = STABLE
 
     def changelogFile = file('CHANGELOG.md')
