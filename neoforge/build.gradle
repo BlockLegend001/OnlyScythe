@@ -20,7 +20,6 @@ repositories {
 
 neoForge {
     version = neoforge_version
-    // Automatically enable neoforge AccessTransformers if the file exists
     def at = project(':common').file('src/main/resources/META-INF/accesstransformer.cfg')
     if (at.exists()) {
         accessTransformers.add(at.absolutePath)
@@ -31,16 +30,7 @@ neoForge {
     }
     runs {
         configureEach {
-            // Recommended logging data for a userdev environment
-            // The markers can be added/remove as needed separated by commas.
-            // "SCAN": For mods scan.
-            // "REGISTRIES": For firing of registry events.
-            // "REGISTRYDUMP": For getting the contents of all registries.
             systemProperty 'forge.logging.markers', 'REGISTRIES'
-
-            // Recommended logging level for the console
-            // You can set various levels here.
-            // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
             systemProperty 'forge.logging.console.level', 'debug'
 
         }
@@ -78,7 +68,7 @@ dependencies {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 publishMods {
-    displayName = "$mod_name-1.21.4-0.1-NeoForge"
+    displayName = "${mod_name}-${project.version}-NeoForge"
     type = STABLE
 
     def changelogFile = file('CHANGELOG.md')

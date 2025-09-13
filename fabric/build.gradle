@@ -24,12 +24,9 @@ dependencies {
         officialMojangMappings()
         parchment("org.parchmentmc.data:parchment-${parchment_minecraft}:${parchment_version}@zip")
     }
+
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
-
-//    modCompileOnlyApi("mezz.jei:jei-${minecraft_version}-common-api:${jei_fabric_version}")
-//    modCompileOnlyApi("mezz.jei:jei-${minecraft_version}-fabric-api:${jei_fabric_version}")
-//    modRuntimeOnly("mezz.jei:jei-${minecraft_version}-fabric:${jei_fabric_version}")
 
     modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:${rei_fabric_version}"
     modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:${rei_fabric_version}"
@@ -69,7 +66,7 @@ loom {
 }
 
 publishMods {
-    displayName = "$mod_name-1.21.4-0.1-Fabric"
+    displayName = "${mod_name}-${project.version}-Fabric"
     type = STABLE
 
     def changelogFile = file('CHANGELOG.md')
