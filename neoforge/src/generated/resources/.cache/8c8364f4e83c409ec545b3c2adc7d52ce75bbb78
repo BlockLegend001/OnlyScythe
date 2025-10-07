@@ -1,8 +1,11 @@
-// 1.21.7	2025-08-05T23:04:50.3999891	Tags for minecraft:item mod id vanilla
+// 1.21.7	2025-09-13T16:12:57.4727029	Tags for minecraft:item mod id vanilla
+2e0bb6c18cca2930a4e815b5bfc30e76b4df124d data/c/tags/item/tools.json
+2e0bb6c18cca2930a4e815b5bfc30e76b4df124d data/minecraft/tags/item/breaks_decorated_pots.json
 2e0bb6c18cca2930a4e815b5bfc30e76b4df124d data/minecraft/tags/item/enchantable/durability.json
 2e0bb6c18cca2930a4e815b5bfc30e76b4df124d data/minecraft/tags/item/enchantable/mining.json
 2e0bb6c18cca2930a4e815b5bfc30e76b4df124d data/minecraft/tags/item/enchantable/mining_loot.json
 2e0bb6c18cca2930a4e815b5bfc30e76b4df124d data/minecraft/tags/item/enchantable/vanishing.json
+2e0bb6c18cca2930a4e815b5bfc30e76b4df124d data/minecraft/tags/item/hoes.json
 f3ec4f08289804f03209cb49504fa2bdec02f8c8 data/onlyscythe/tags/item/diamond_scythe.json
 bd857e8237e145982b91e38c736cad329582b5d3 data/onlyscythe/tags/item/golden_scythe.json
 b614063ba1022b8c637e934f2408f66164e2ecdd data/onlyscythe/tags/item/iron_scythe.json
