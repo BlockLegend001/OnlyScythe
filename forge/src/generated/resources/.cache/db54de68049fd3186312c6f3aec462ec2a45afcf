@@ -1,0 +1,10 @@
+// 1.20.1	2025-11-26T23:12:25.868886	Tags for minecraft:item mod id onlyscythe
+2e0bb6c18cca2930a4e815b5bfc30e76b4df124d data/forge/tags/items/tools.json
+2e0bb6c18cca2930a4e815b5bfc30e76b4df124d data/minecraft/tags/items/breaks_decorated_pots.json
+2e0bb6c18cca2930a4e815b5bfc30e76b4df124d data/minecraft/tags/items/hoes.json
+f3ec4f08289804f03209cb49504fa2bdec02f8c8 data/onlyscythe/tags/items/diamond_scythe.json
+bd857e8237e145982b91e38c736cad329582b5d3 data/onlyscythe/tags/items/golden_scythe.json
+b614063ba1022b8c637e934f2408f66164e2ecdd data/onlyscythe/tags/items/iron_scythe.json
+5451046117576333c7571959aafb11bf6a51f144 data/onlyscythe/tags/items/netherite_scythe.json
+639516a17fa4977a83c3e43d2d3393e6972fea26 data/onlyscythe/tags/items/stone_scythe.json
+ee43cbd5b9b0b817c1f8278e152764d208a73397 data/onlyscythe/tags/items/wooden_scythe.json

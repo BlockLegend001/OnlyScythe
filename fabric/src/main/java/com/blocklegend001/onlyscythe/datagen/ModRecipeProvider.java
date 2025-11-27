@@ -1,0 +1,68 @@
+package com.blocklegend001.onlyscythe.datagen;
+
+import com.blocklegend001.onlyscythe.item.ModItems;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.data.recipes.FinishedRecipe;
+import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.ShapedRecipeBuilder;
+import net.minecraft.data.recipes.SmithingTransformRecipeBuilder;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.ItemLike;
+
+import java.util.function.Consumer;
+
+public class ModRecipeProvider extends FabricRecipeProvider {
+    public ModRecipeProvider(FabricDataOutput output) {
+        super(output);
+    }
+
+    @Override
+    public void buildRecipes(Consumer<FinishedRecipe> recipeOutput) {
+        baseScytheRecipe(recipeOutput, ItemTags.PLANKS, ModItems.WOODEN_SCYTHE);
+        baseScytheRecipe(recipeOutput, ItemTags.STONE_TOOL_MATERIALS, ModItems.STONE_SCYTHE);
+        baseScytheRecipe(recipeOutput, Items.IRON_INGOT, ModItems.IRON_SCYTHE);
+        baseScytheRecipe(recipeOutput, Items.GOLD_INGOT, ModItems.GOLDEN_SCYTHE);
+        baseScytheRecipe(recipeOutput, Items.DIAMOND, ModItems.DIAMOND_SCYTHE);
+        baseSmithingRecipe(recipeOutput, Items.NETHERITE_INGOT, ModItems.DIAMOND_SCYTHE, ModItems.NETHERITE_SCYTHE);
+    }
+
+    public void baseScytheRecipe(Consumer<FinishedRecipe> output, ItemLike ingredient, Item result) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, result)
+                .define('#', ingredient)
+                .define('S', Items.STICK)
+                .pattern("###")
+                .pattern("  S")
+                .pattern("  S")
+                .unlockedBy("has_" + ingredient.asItem().builtInRegistryHolder().key().location().getPath(), has(ingredient))
+                .save(output);
+    }
+
+    public void baseScytheRecipe(Consumer<FinishedRecipe> output, TagKey<Item> tag, Item result) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, result)
+                .define('#', tag)
+                .define('S', Items.STICK)
+                .pattern("###")
+                .pattern("  S")
+                .pattern("  S")
+                .unlockedBy("has_" + tag.location().getPath(), has(tag))
+                .save(output);
+    }
+
+    public void baseSmithingRecipe(Consumer<FinishedRecipe> output, Item base, Item addition, Item result) {
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.of(base),
+                        Ingredient.of(addition),
+                        RecipeCategory.MISC,
+                        result
+                )
+                .unlocks("has_addition", has(addition))
+                .save(output, new ResourceLocation("onlyscythe", result.getDescriptionId().replace("item.onlyscythe.", "") + "_smithing"));
+    }
+}
