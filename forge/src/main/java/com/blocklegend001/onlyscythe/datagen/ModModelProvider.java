@@ -34,6 +34,7 @@ public class ModModelProvider extends ModelProvider {
     protected void registerModels(ItemModelGenerators itemModels) {
         itemModel(itemModels, ModItems.WOODEN_SCYTHE);
         itemModel(itemModels, ModItems.STONE_SCYTHE);
+        itemModel(itemModels, ModItems.COPPER_SCYTHE);
         itemModel(itemModels, ModItems.GOLDEN_SCYTHE);
         itemModel(itemModels, ModItems.IRON_SCYTHE);
         itemModel(itemModels, ModItems.DIAMOND_SCYTHE);

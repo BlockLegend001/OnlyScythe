@@ -15,7 +15,10 @@ public class ModItems {
     public static final Item STONE_SCYTHE = new Scythe(ToolMaterial.STONE, -1.0F, -2.0F,  new Item.Properties()
             .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "stone_scythe"))));
 
-    public static final Item GOLDEN_SCYTHE = new Scythe(ToolMaterial.GOLD, 0.0F, -3.0F,  new Item.Properties()
+    public static final Item COPPER_SCYTHE = new Scythe(ToolMaterial.COPPER, -2.0F, -1.0F,  new Item.Properties()
+            .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "copper_scythe"))));
+
+    public static final Item GOLDEN_SCYTHE = new Scythe(ToolMaterial.GOLD, -1.0F, -3.0F,  new Item.Properties()
             .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "golden_scythe"))));
 
     public static final Item IRON_SCYTHE = new Scythe(ToolMaterial.IRON, -2.0F, -1.0F,  new Item.Properties()

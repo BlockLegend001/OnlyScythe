@@ -1,6 +1,5 @@
 package com.blocklegend001.onlyscythe.datagen;
 
-import com.blocklegend001.onlyscythe.Constants;
 import com.blocklegend001.onlyscythe.item.ModItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
@@ -26,6 +25,7 @@ public class ModModelProvider extends ModelProvider {
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         itemModel(itemModels, ModItems.WOODEN_SCYTHE);
         itemModel(itemModels, ModItems.STONE_SCYTHE);
+        itemModel(itemModels, ModItems.COPPER_SCYTHE);
         itemModel(itemModels, ModItems.GOLDEN_SCYTHE);
         itemModel(itemModels, ModItems.IRON_SCYTHE);
         itemModel(itemModels, ModItems.DIAMOND_SCYTHE);

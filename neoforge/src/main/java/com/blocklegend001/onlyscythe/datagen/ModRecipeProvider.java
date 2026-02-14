@@ -3,7 +3,10 @@ package com.blocklegend001.onlyscythe.datagen;
 import com.blocklegend001.onlyscythe.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.*;
+import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.RecipeOutput;
+import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.data.recipes.SmithingTransformRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
@@ -39,6 +42,7 @@ public class ModRecipeProvider extends RecipeProvider {
     protected void buildRecipes() {
         baseScytheRecipe(this.output, ItemTags.PLANKS, ModItems.WOODEN_SCYTHE);
         baseScytheRecipe(this.output, ItemTags.STONE_TOOL_MATERIALS, ModItems.STONE_SCYTHE);
+        baseScytheRecipe(this.output, Items.COPPER_INGOT, ModItems.COPPER_SCYTHE);
         baseScytheRecipe(this.output, Items.IRON_INGOT, ModItems.IRON_SCYTHE);
         baseScytheRecipe(this.output, Items.GOLD_INGOT, ModItems.GOLDEN_SCYTHE);
         baseScytheRecipe(this.output, Items.DIAMOND, ModItems.DIAMOND_SCYTHE);

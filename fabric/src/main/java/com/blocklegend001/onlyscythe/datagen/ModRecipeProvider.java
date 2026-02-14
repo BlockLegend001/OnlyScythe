@@ -5,7 +5,10 @@ import com.blocklegend001.onlyscythe.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.data.recipes.*;
+import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.RecipeOutput;
+import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.data.recipes.SmithingTransformRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
@@ -39,6 +42,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('#', ItemTags.STONE_TOOL_MATERIALS)
                         .define('S', Items.STICK)
                         .unlockedBy("has_cobblestone", has(ItemTags.STONE_TOOL_MATERIALS))
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.COPPER_SCYTHE)
+                        .pattern("###")
+                        .pattern("  S")
+                        .pattern("  S")
+                        .define('#', Items.COPPER_INGOT)
+                        .define('S', Items.STICK)
+                        .unlockedBy("has_cobblestone", has(Items.COPPER_INGOT))
                         .save(output);
 
                 shaped(RecipeCategory.TOOLS, ModItems.IRON_SCYTHE)
