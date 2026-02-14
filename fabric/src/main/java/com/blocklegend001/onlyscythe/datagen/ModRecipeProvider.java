@@ -41,6 +41,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_cobblestone", has(ItemTags.STONE_TOOL_MATERIALS))
                         .save(output);
 
+                shaped(RecipeCategory.TOOLS, ModItems.COPPER_SCYTHE)
+                        .pattern("###")
+                        .pattern("  S")
+                        .pattern("  S")
+                        .define('#', Items.COPPER_INGOT)
+                        .define('S', Items.STICK)
+                        .unlockedBy("has_cobblestone", has(Items.COPPER_INGOT))
+                        .save(output);
+
                 shaped(RecipeCategory.TOOLS, ModItems.IRON_SCYTHE)
                         .pattern("###")
                         .pattern("  S")

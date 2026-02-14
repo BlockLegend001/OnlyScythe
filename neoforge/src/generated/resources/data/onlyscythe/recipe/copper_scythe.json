@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "#": "minecraft:copper_ingot",
+    "S": "minecraft:stick"
   },
   "pattern": [
     "###",
@@ -16,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "onlyscythe:iron_schyte"
+    "id": "onlyscythe:copper_scythe"
   }
 }

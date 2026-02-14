@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_stone_tool_materials": {
+    "has_copper_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:stone_tool_materials"
+            "items": "minecraft:copper_ingot"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "onlyscythe:stone_schyte"
+        "recipe": "onlyscythe:copper_scythe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_stone_tool_materials"
+      "has_copper_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "onlyscythe:stone_schyte"
+      "onlyscythe:copper_scythe"
     ]
   }
 }

@@ -40,6 +40,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes() {
         baseScytheRecipe(this.output, ItemTags.PLANKS, ModItems.WOODEN_SCYTHE);
         baseScytheRecipe(this.output, ItemTags.STONE_TOOL_MATERIALS, ModItems.STONE_SCYTHE);
+        baseScytheRecipe(this.output, Items.COPPER_INGOT, ModItems.COPPER_SCYTHE);
         baseScytheRecipe(this.output, Items.IRON_INGOT, ModItems.IRON_SCYTHE);
         baseScytheRecipe(this.output, Items.GOLD_INGOT, ModItems.GOLDEN_SCYTHE);
         baseScytheRecipe(this.output, Items.DIAMOND, ModItems.DIAMOND_SCYTHE);

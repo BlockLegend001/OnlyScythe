@@ -15,6 +15,7 @@ public class ScytheConfig {
 
     public static int WoodenRadius = 1;
     public static int StoneRadius = 1;
+    public static int CopperRadius = 1;
     public static int IronRadius = 2;
     public static int GoldRadius = 2;
     public static int DiamondRadius = 3;
@@ -29,6 +30,7 @@ public class ScytheConfig {
 
                 WoodenRadius = config.get("WoodenRadius").getAsInt();
                 StoneRadius = config.get("StoneRadius").getAsInt();
+                CopperRadius = config.get("CopperRadius").getAsInt();
                 IronRadius = config.get("IronRadius").getAsInt();
                 GoldRadius = config.get("GoldRadius").getAsInt();
                 DiamondRadius = config.get("DiamondRadius").getAsInt();
@@ -44,6 +46,7 @@ public class ScytheConfig {
 
         config.addProperty("WoodenRadius", WoodenRadius);
         config.addProperty("StoneRadius", StoneRadius);
+        config.addProperty("CopperRadius", CopperRadius);
         config.addProperty("IronRadius", IronRadius);
         config.addProperty("GoldRadius", GoldRadius);
         config.addProperty("DiamondRadius", DiamondRadius);
