@@ -19,6 +19,7 @@ public class ModItemGroups {
                 .displayItems((context, entries) -> {
                     entries.accept(ModItems.WOODEN_SCYTHE);
                     entries.accept(ModItems.STONE_SCYTHE);
+                    entries.accept(ModItems.COPPER_SCYTHE);
                     entries.accept(ModItems.IRON_SCYTHE);
                     entries.accept(ModItems.GOLDEN_SCYTHE);
                     entries.accept(ModItems.DIAMOND_SCYTHE);

@@ -10,6 +10,7 @@ public class ModItemRegistry {
 
     public static final DeferredItem<Item> WOODEN_SCYTHE = ITEMS.register("wooden_scythe", () -> ModItems.WOODEN_SCYTHE);
     public static final DeferredItem<Item> STONE_SCYTHE = ITEMS.register("stone_scythe", () -> ModItems.STONE_SCYTHE);
+    public static final DeferredItem<Item> COPPER_SCYTHE = ITEMS.register("copper_scythe", () -> ModItems.COPPER_SCYTHE);
     public static final DeferredItem<Item> GOLDEN_SCYTHE = ITEMS.register("golden_scythe", () -> ModItems.GOLDEN_SCYTHE);
     public static final DeferredItem<Item> IRON_SCYTHE = ITEMS.register("iron_scythe", () -> ModItems.IRON_SCYTHE);
     public static final DeferredItem<Item> DIAMOND_SCYTHE = ITEMS.register("diamond_scythe", () -> ModItems.DIAMOND_SCYTHE);

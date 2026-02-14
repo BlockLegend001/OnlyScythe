@@ -10,6 +10,7 @@ public class RadiusMap {
     public static final Map<Item, Integer> SCYTHE_RADIUS_MAP = Map.of(
             ModItems.WOODEN_SCYTHE, ScytheConfig.WoodenRadius,
             ModItems.STONE_SCYTHE, ScytheConfig.StoneRadius,
+            ModItems.COPPER_SCYTHE, ScytheConfig.CopperRadius,
             ModItems.GOLDEN_SCYTHE, ScytheConfig.GoldRadius,
             ModItems.IRON_SCYTHE, ScytheConfig.IronRadius,
             ModItems.DIAMOND_SCYTHE, ScytheConfig.DiamondRadius,

@@ -1,10 +1,12 @@
-// 1.21.11	2025-12-25T21:50:45.2923028	Model Definitions
+// 1.21.11	2026-02-14T18:11:52.1200226	Model Definitions
+198fa0b265624b41048f9e86620e7818d9c62c43 assets/onlyscythe/items/copper_scythe.json
 3631e268f12966e48854210ca4ba521ecf6ead85 assets/onlyscythe/items/diamond_scythe.json
 40f324022b3cb0184254788cec23103c7eb30877 assets/onlyscythe/items/golden_scythe.json
 f1bbefcde3517399a388e0e4fbd80b52bddb9e47 assets/onlyscythe/items/iron_scythe.json
 5fee5fa67a716b15fcef12740cc7dd237bc66a89 assets/onlyscythe/items/netherite_scythe.json
 258218c278f67d432b711fe67d7b045ff94337a0 assets/onlyscythe/items/stone_scythe.json
 b917648cfb512a55c4c4c948d46f90715746523c assets/onlyscythe/items/wooden_scythe.json
+dff9ca9555a2bad85b7faef58a3714c321074d8c assets/onlyscythe/models/item/copper_scythe.json
 2fff0ac4003dc47c6db7cdc1ce18af4b31452b43 assets/onlyscythe/models/item/diamond_scythe.json
 199ec79f385cce34c251e1945e0639a4614bd8b1 assets/onlyscythe/models/item/golden_scythe.json
 4c66a36827c7d0eb809c167d7a5f64d4ffd8e45b assets/onlyscythe/models/item/iron_scythe.json

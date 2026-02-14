@@ -1,10 +1,12 @@
 // 1.21.11	-999999999-01-01T00:00:00	OnlyScythe/
+8ff5747434eff10d70735ba6e40f1f8fcff22fdd data/onlyscythe/advancement/recipes/tools/copper_scythe.json
 38bb7186956c239b8445ac3f877105a6cc11a284 data/onlyscythe/advancement/recipes/tools/diamond_scythe.json
 7b5fe23b533fbadc246df81bee9ec5363f01ff82 data/onlyscythe/advancement/recipes/tools/golden_scythe.json
 f7168e19a77138e100b06434c4bdfee78ff2fb8f data/onlyscythe/advancement/recipes/tools/iron_scythe.json
 5b1f3a58c8124c018548da8303c3437b54b0cae2 data/onlyscythe/advancement/recipes/tools/netherite_scythe.json
 79f2acb674d8b0da938db8a1b2a046f0ebe3c4be data/onlyscythe/advancement/recipes/tools/stone_scythe.json
 fe74e1eaaa2d92036a9871dd66bf30c8ddbb373c data/onlyscythe/advancement/recipes/tools/wooden_scythe.json
+4efee52d2098d4bbbcfd5a553fe28839c0ab7f9d data/onlyscythe/recipe/copper_scythe.json
 128b1b252cd1343eb47b7d7a5e2c40fee3674faa data/onlyscythe/recipe/diamond_scythe.json
 9d36f407b3c18e78a24776a415875fc5ad5c6a3b data/onlyscythe/recipe/golden_scythe.json
 7ca9fdc3cf46d11c1056397d0c7f2386cadbfa61 data/onlyscythe/recipe/iron_scythe.json

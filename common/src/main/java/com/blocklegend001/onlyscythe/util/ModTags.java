@@ -12,6 +12,7 @@ public class ModTags {
 
     public static final TagKey<Item> WOODEN_SCYTHE = modItemTag("wooden_scythe");
     public static final TagKey<Item> STONE_SCYTHE = modItemTag("stone_scythe");
+    public static final TagKey<Item> COPPER_SCYTHE = modItemTag("copper_scythe");
     public static final TagKey<Item> GOLDEN_SCYTHE = modItemTag("golden_scythe");
     public static final TagKey<Item> IRON_SCYTHE = modItemTag("iron_scythe");
     public static final TagKey<Item> DIAMOND_SCYTHE = modItemTag("diamond_scythe");
