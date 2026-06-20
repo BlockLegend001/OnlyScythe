@@ -1,0 +1,15 @@
+// 26.1.1	2026-06-20T10:27:04.4076865	Tags for minecraft:item mod id vanilla
+5778b9a47f88e4a385273184920cc2b1bb70cabc data/c/tags/item/tools.json
+5778b9a47f88e4a385273184920cc2b1bb70cabc data/minecraft/tags/item/breaks_decorated_pots.json
+5778b9a47f88e4a385273184920cc2b1bb70cabc data/minecraft/tags/item/enchantable/durability.json
+5778b9a47f88e4a385273184920cc2b1bb70cabc data/minecraft/tags/item/enchantable/mining.json
+5778b9a47f88e4a385273184920cc2b1bb70cabc data/minecraft/tags/item/enchantable/mining_loot.json
+5778b9a47f88e4a385273184920cc2b1bb70cabc data/minecraft/tags/item/enchantable/vanishing.json
+5778b9a47f88e4a385273184920cc2b1bb70cabc data/minecraft/tags/item/hoes.json
+2ce2e949d4b79951139edbb25b47e98851eda385 data/onlyscythe/tags/item/copper_scythe.json
+f3ec4f08289804f03209cb49504fa2bdec02f8c8 data/onlyscythe/tags/item/diamond_scythe.json
+bd857e8237e145982b91e38c736cad329582b5d3 data/onlyscythe/tags/item/golden_scythe.json
+b614063ba1022b8c637e934f2408f66164e2ecdd data/onlyscythe/tags/item/iron_scythe.json
+5451046117576333c7571959aafb11bf6a51f144 data/onlyscythe/tags/item/netherite_scythe.json
+639516a17fa4977a83c3e43d2d3393e6972fea26 data/onlyscythe/tags/item/stone_scythe.json
+ee43cbd5b9b0b817c1f8278e152764d208a73397 data/onlyscythe/tags/item/wooden_scythe.json
