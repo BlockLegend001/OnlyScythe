@@ -1,0 +1,2 @@
+- Added Copper Scythe
+- **WARNING**: This update requires a regeneration of the config file.

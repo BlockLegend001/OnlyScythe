@@ -1,0 +1,11 @@
+{
+  "item.onlyscythe.wooden_scythe": "Wooden Scythe",
+  "item.onlyscythe.stone_scythe": "Stone Scythe",
+  "item.onlyscythe.copper_scythe": "Copper Scythe",
+  "item.onlyscythe.golden_scythe": "Golden Scythe",
+  "item.onlyscythe.iron_scythe": "Iron Scythe",
+  "item.onlyscythe.diamond_scythe": "Diamond Scythe",
+  "item.onlyscythe.netherite_scythe": "Netherite Scythe",
+
+  "itemGroup.onlyscythe": "Only Scythe"
+}
