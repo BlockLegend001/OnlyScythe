@@ -27,6 +27,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(Blocks.CRIMSON_ROOTS.builtInRegistryHolder().key())
                 .add(Blocks.WARPED_ROOTS.builtInRegistryHolder().key())
                 .add(Blocks.NETHER_SPROUTS.builtInRegistryHolder().key())
-                .add(Blocks.SWEET_BERRY_BUSH.builtInRegistryHolder().key());
+                .add(Blocks.SWEET_BERRY_BUSH.builtInRegistryHolder().key())
+                .add(Blocks.LEAF_LITTER.builtInRegistryHolder().key());
     }
 }

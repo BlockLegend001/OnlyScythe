@@ -38,6 +38,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                         Blocks.CRIMSON_ROOTS,
                         Blocks.WARPED_ROOTS,
                         Blocks.NETHER_SPROUTS,
-                        Blocks.SWEET_BERRY_BUSH));
+                        Blocks.SWEET_BERRY_BUSH,
+                        Blocks.LEAF_LITTER));
     }
 }
