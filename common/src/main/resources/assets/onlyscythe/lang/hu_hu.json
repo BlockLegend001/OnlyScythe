@@ -1,0 +1,11 @@
+{
+  "item.onlyscythe.wooden_scythe": "Fakasza",
+  "item.onlyscythe.stone_scythe": "Kőkasza",
+  "item.onlyscythe.copper_scythe": "Rézkasza",
+  "item.onlyscythe.golden_scythe": "Aranykasza",
+  "item.onlyscythe.iron_scythe": "Vaskasza",
+  "item.onlyscythe.diamond_scythe": "Gyémántkasza",
+  "item.onlyscythe.netherite_scythe": "Netheritkasza",
+
+  "itemGroup.onlyscythe": "Csak Kasza"
+}
