@@ -1,0 +1,12 @@
+{
+  "item.onlyscythe.wooden_scythe": "Дерев'яна коса",
+  "item.onlyscythe.stone_scythe": "Кам'яна коса",
+  "item.onlyscythe.golden_scythe": "Золота коса",
+  "item.onlyscythe.iron_scythe": "Залізна коса",
+  "item.onlyscythe.diamond_scythe": "Діамантова коса",
+  "item.onlyscythe.netherite_scythe": "Незеритова коса",
+
+  "itemGroup.onlyscythe": "Only Scythe",
+  
+  "modmenu.descriptionTranslation.onlyscythe": "Долає коси для збирання врожаю"
+}
